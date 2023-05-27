@@ -1,3 +1,21 @@
+# System Requirements
+
+12 GB VRAM
+
+16 GB Ram
+
+~20 GB free storage (in best case m.2 SSD)
+
+Tested on following system:
+
+RTX 4070ti
+
+i7 10700
+
+16 GB Ram
+
+m.2 SSD with 5 GB/s read
+
 # BangSearchEngine
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
