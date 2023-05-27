@@ -1,0 +1,15 @@
+<div class="chat-header">
+    <h2>Chat with Bang</h2>
+  </div>
+  <div class="chat-container">
+    <div *ngFor="let message of messages" class="message" [ngClass]="{ 'user-message': message.from === 'You', 'bot-message': message.from === 'Bang' }">
+      {{message.from}} : {{ message.text }}
+    </div>
+  </div>
+  <div class="input-container">
+    <div class="input-wrapper">
+      <input (change)="setInput($event)" class="input-box" placeholder="Type a message..." (keyup.enter)="sendMessage()" />
+      <button (click)="sendMessage()" class="send-button">Send</button>
+    </div>
+  </div>
+  
